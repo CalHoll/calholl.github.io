@@ -81,7 +81,7 @@
 <p>The purpose of this blog will be to share knowledge and resources that I find particularly interesting, to hopefully assist those who are also trying to get involved.</p>
 <p>Finally, I would like to give some credit to those that lead me to publishing here, an awesome couple of senior students: Alex Leo, and Ivey Topaz. Thanks guys!</p>
 <hr>
-<h2 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h2><h2 id="This-site-is-under-heavy-construction-as-I-am-using-this-page-to-practice-implementation-of-a-Jekyll-blog-post-for-the-first-time"><a href="#This-site-is-under-heavy-construction-as-I-am-using-this-page-to-practice-implementation-of-a-Jekyll-blog-post-for-the-first-time" class="headerlink" title="This site is under heavy construction as I am using this page to practice implementation of a Jekyll blog post for the first time."></a>This site is under heavy construction as I am using this page to practice implementation of a Jekyll blog post for the first time.</h2><h2 id="And-So…"><a href="#And-So…" class="headerlink" title="And So…"></a>And So…</h2><p>In the interest of jumping right in, I want to share what has helped me get my site here up and running (while practicing usage of Jekyll).</p>
+<h2 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h2><h2 id="This-site-is-under-heavy-construction-as-I-am-using-this-page-to-practice-implementation-of-the-Hexo-blogging-library"><a href="#This-site-is-under-heavy-construction-as-I-am-using-this-page-to-practice-implementation-of-the-Hexo-blogging-library" class="headerlink" title="This site is under heavy construction as I am using this page to practice implementation of the Hexo blogging library."></a>This site is under heavy construction as I am using this page to practice implementation of the Hexo blogging library.</h2><h2 id="And-So…"><a href="#And-So…" class="headerlink" title="And So…"></a>And So…</h2><p>In the interest of jumping right in, I want to share what has helped me get my site here up and running (while practicing usage of Jekyll).</p>
 <blockquote>
 <p>NOTE: A great youtube intro video about Jekyll: <a href="https://www.youtube.com/watch?v=iWowJBRMtpc" target="_blank" rel="external">Build A Blog With Jekyll And GitHub Pages</a></p>
 <blockquote>
@@ -112,7 +112,18 @@
 <h3 id="Jekyll-emoji-plug-ins"><a href="#Jekyll-emoji-plug-ins" class="headerlink" title="Jekyll emoji plug-ins?!"></a>Jekyll emoji plug-ins?!</h3><p>After a little madness working with local Gemfiles…<br>I give this plugin two :+1:!  </p>
 <p>Emoji reference here: <a href="http://www.webpagefx.com/tools/emoji-cheat-sheet/" target="_blank" rel="external">Emoji Cheat Sheet</a>  </p>
 <p>A couple to get you started:<br>(place words between two ‘:’)<br>fire:fire:<br>smile:smile:<br>grin:grin:<br>joy:joy:<br>laughing:laughing:  </p>
-<h4 id="Stay-tuned-for-more"><a href="#Stay-tuned-for-more" class="headerlink" title="Stay tuned for more!"></a>Stay tuned for more!</h4>
+<h4 id="Stay-tuned-for-more"><a href="#Stay-tuned-for-more" class="headerlink" title="Stay tuned for more!"></a>Stay tuned for more!</h4><h2 id="Migrated-blog-to-Hexo-workflow-and-quick-refs"><a href="#Migrated-blog-to-Hexo-workflow-and-quick-refs" class="headerlink" title="Migrated blog to Hexo, workflow and quick-refs:"></a>Migrated blog to Hexo, workflow and quick-refs:</h2><p>Hexo Documentation: <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><p>The following script currently has issues. To deploy I have created an upstream from the public folder.<br>Simply generate new static files, navigate into the public folder, and git push origin master.</p>
+<p>Pro Tip - to overwrite git remote files include a “+” before remote branch like so:  git push origin +master</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
 
     <hr />
 
