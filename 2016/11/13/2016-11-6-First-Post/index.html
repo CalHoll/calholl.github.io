@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon/favicon.ico">
+
+    
+    <title>Introductions &amp; How I Built My Jekyll Blog - Cal H.</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" href="/css/ie10-viewport-bug-workaround.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="/css/blog.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+    
+
+</head>
+
+
+<body>
+    <!-- Menu -->
+    <div class="blog-masthead">
+    <div class="container">
+        <nav class="blog-nav">
+            
+                <a class="blog-nav-item" href="/">Home</a>
+            
+                <a class="blog-nav-item" href="/archives">Archives</a>
+            
+        </nav>
+    </div>
+</div>
+
+    <div class="container">
+        <!-- Blog Header: title and subtitle -->
+        <div class="blog-header">
+    <h1 class="blog-title">Cal H.</h1>
+    <p class="lead blog-description">Engineer - Enthusiast - Creator</p>
+</div>
+
+        <div class="row">
+
+            <!-- Main Content -->
+            <div class="col-sm-8 blog-main">
+                <div class="blog-post">
+
+    <!-- Title -->
+    <h2 class="blog-post-title">
+        <a href="/2016/11/13/2016-11-6-First-Post/">
+            Introductions & How I Built My Jekyll Blog
+        </a>
+    </h2>
+
+    <!-- Date and Author -->
+    <p class="blog-post-meta">
+        2016-11-13
+        
+    </p>
+
+    <!-- Content -->
+    <p>Hello and welcome to my new site using github pages and Jekyll.  I am a current student of Hack Reactor Remote, cohort 20, and am absolutely thrilled to be diving into the world of Software Engineering!  </p>
+<p>My time at Hack Reactor will be a unique opportunity to experience what it is like to make a shift from Mechanical Engineering to Software Engineering, or a combination thereof.</p>
+<p>The purpose of this blog will be to share knowledge and resources that I find particularly interesting, to hopefully assist those who are also trying to get involved.</p>
+<p>Finally, I would like to give some credit to those that lead me to publishing here, an awesome couple of senior students: Alex Leo, and Ivey Topaz. Thanks guys!</p>
+<hr>
+<h2 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h2><h2 id="This-site-is-under-heavy-construction-as-I-am-using-this-page-to-practice-implementation-of-a-Jekyll-blog-post-for-the-first-time"><a href="#This-site-is-under-heavy-construction-as-I-am-using-this-page-to-practice-implementation-of-a-Jekyll-blog-post-for-the-first-time" class="headerlink" title="This site is under heavy construction as I am using this page to practice implementation of a Jekyll blog post for the first time."></a>This site is under heavy construction as I am using this page to practice implementation of a Jekyll blog post for the first time.</h2><h2 id="And-So…"><a href="#And-So…" class="headerlink" title="And So…"></a>And So…</h2><p>In the interest of jumping right in, I want to share what has helped me get my site here up and running (while practicing usage of Jekyll).</p>
+<blockquote>
+<p>NOTE: A great youtube intro video about Jekyll: <a href="https://www.youtube.com/watch?v=iWowJBRMtpc" target="_blank" rel="external">Build A Blog With Jekyll And GitHub Pages</a></p>
+<blockquote>
+<p>DOUBLENOTE: For those looking for an in depth guide I would recommend the tutorial found here:   <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/" target="_blank" rel="external">Build A Blog With Jekyll And GitHub Pages</a></p>
+</blockquote>
+</blockquote>
+<hr>
+<h3 id="My-site-is-live…-now-what"><a href="#My-site-is-live…-now-what" class="headerlink" title="My site is live… now what?"></a>My site is live… now what?</h3><p>I wanted to compile a few ‘pro-tips’ for anyone else that might be interested in how I made this page. Mostly this is just for my own selfish goal of learning by doing. BUT HERE THE TIPS ARE:</p>
+<p><a href="https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md" target="_blank" rel="external">You can view the markdown used to create this post(UNDER CONSTRUCTION)</a></p>
+<p>Use three consequetive backticks within post Markdown (.md) files beforee and after javascript inline code snippets like so:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> MyFavoriteClass = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="comment">// Can anyone guess this class instantiation style?</span></div><div class="line">  <span class="keyword">this</span>.idx = <span class="number">0</span>;</div><div class="line">  <span class="keyword">this</span>.storage = &#123;&#125;;</div><div class="line">&#125;;</div><div class="line"></div><div class="line">MyFavoriateClass.prototype.addMethod = <span class="function"><span class="keyword">function</span>(<span class="params">value</span>) </span>&#123;</div><div class="line">  <span class="keyword">this</span>.storage[<span class="keyword">this</span>.idx] = value;</div><div class="line">  <span class="keyword">this</span>.idx++;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<h3 id="issues-hosting-Jekyll-locally"><a href="#issues-hosting-Jekyll-locally" class="headerlink" title="issues hosting Jekyll locally"></a>issues hosting Jekyll locally</h3><p>This could be in part due to my choice to do all this on a Ubuntu box but…</p>
+<p>When trying to run ‘bundle exec jekyll serve’, I got a funny error about not being able to install RedCloth. Apparently I needed the ‘dev’ version of ruby, install command follows:  </p>
+<blockquote>
+<p>$ sudo apt-get install ruby-dev</p>
+</blockquote>
+<p>Also had issues with “gem install nokogiri -v ‘1.6.8.1’”, resolved those with:  </p>
+<blockquote>
+<p>$ sudo apt-get install zlib1g-dev</p>
+</blockquote>
+<p> &amp;  </p>
+<blockquote>
+<p>$ sudo apt-get update<br>$ sudo apt-get install libxml2-dev<br>$ sudo apt-get install libxslt-dev<br>$ sudo gem install nokogiri -v ‘1.4.7’  </p>
+</blockquote>
+<p>apt-get install ruby-dev<br>apt-get install libxslt-dev libxml2-dev<br>apt-get install zlib1g-dev<br>gem install nokogiri</p>
+<p>$ gem list nokogiri<br><strong><em> LOCAL GEMS </em></strong><br>nokogiri (1.4.7)</p>
+<h3 id="List-of-Jekyll-console-commands-to-remember"><a href="#List-of-Jekyll-console-commands-to-remember" class="headerlink" title="List of Jekyll console commands to remember:"></a>List of Jekyll console commands to remember:</h3><p>Jekyll –help<br>:satisfied:</p>
+<h3 id="Jekyll-emoji-plug-ins"><a href="#Jekyll-emoji-plug-ins" class="headerlink" title="Jekyll emoji plug-ins?!"></a>Jekyll emoji plug-ins?!</h3><p>After a little madness working with local Gemfiles…<br>I give this plugin two :+1:!  </p>
+<p>Emoji reference here: <a href="http://www.webpagefx.com/tools/emoji-cheat-sheet/" target="_blank" rel="external">Emoji Cheat Sheet</a>  </p>
+<p>A couple to get you started:<br>(place words between two ‘:’)<br>fire:fire:<br>smile:smile:<br>grin:grin:<br>joy:joy:<br>laughing:laughing:  </p>
+<h4 id="Stay-tuned-for-more"><a href="#Stay-tuned-for-more" class="headerlink" title="Stay tuned for more!"></a>Stay tuned for more!</h4>
+
+    <hr />
+
+    <!-- Tags and Categories links -->
+    
+    
+
+    <!-- Comments -->
+    
+
+</div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+                
+    
+    <div class="sidebar-module sidebar-module-inset">
+        <h4>About</h4>
+        <p>This blog is based off the official bootstrap blog template. Checkout the corresponding tutorial at <a href="http://www.codeblocq.com">http://www.codeblocq.com</a</p>
+    </div>
+
+
+    
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="blog-footer">
+    <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+    <p>Adapted to Hexo by <a href="http://www.codeblocq.com/">klugjo</a>.</p>
+    <p><a href="#">Back to top</a></p>
+</footer>
+
+    <!-- After footer scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/js/ie10-viewport-bug-workaround.js"></script>
+
+<!-- Disqus Comments -->
+
+</body>
+
+</html>
