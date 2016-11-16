@@ -13,7 +13,7 @@ IT WILL MAKE THE TERMINAL EASY AND FUN TO USE.
 The fol">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Zsh - A Better Terminal">
-<meta property="og:url" content="http://yoursite.com/2016/11/15/zsh_a_better_terminal/index.html">
+<meta property="og:url" content="http://calholl.github.io/2016/11/15/zsh_a_better_terminal/index.html">
 <meta property="og:site_name" content="Calvin Holloway">
 <meta property="og:description" content="What is Zsh and why should you care?Zsh features themes, plugins, and advancements over default Bash and is compatible. But to put it frankly:
 
@@ -21,8 +21,8 @@ IT WILL MAKE THE TERMINAL EASY AND FUN TO USE.
 
 
 The fol">
-<meta property="og:image" content="http://yoursite.com/images/zsh_example.png">
-<meta property="og:updated_time" content="2016-11-16T06:59:38.868Z">
+<meta property="og:image" content="http://calholl.github.io/images/zsh_example.png">
+<meta property="og:updated_time" content="2016-11-16T07:19:37.479Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Zsh - A Better Terminal">
 <meta name="twitter:description" content="What is Zsh and why should you care?Zsh features themes, plugins, and advancements over default Bash and is compatible. But to put it frankly:
@@ -31,7 +31,7 @@ IT WILL MAKE THE TERMINAL EASY AND FUN TO USE.
 
 
 The fol">
-<meta name="twitter:image" content="http://yoursite.com/images/zsh_example.png">
+<meta name="twitter:image" content="http://calholl.github.io/images/zsh_example.png">
   
   
   
@@ -110,7 +110,7 @@ The fol">
 
   <div class="article-meta">
     <div class="article-datetime">
-  <a href="/2016/11/15/zsh_a_better_terminal/" class="article-date"><time datetime="2016-11-16T06:59:38.868Z" itemprop="datePublished">2016-11-15</time></a>
+  <a href="/2016/11/15/zsh_a_better_terminal/" class="article-date"><time datetime="2016-11-16T07:19:37.479Z" itemprop="datePublished">2016-11-15</time></a>
 </div>
 
     
@@ -133,13 +133,12 @@ The fol">
 <p>The following is a concise guide on how to get up and running with this powerhouse of a tool.</p>
 <a id="more"></a>
 <h3 id="Skip-to-Sections"><a href="#Skip-to-Sections" class="headerlink" title="Skip to Sections:"></a>Skip to Sections:</h3><ul>
-<li><a href="#zsh_sec1">What is Zsh and why should I care?</a></li>
-<li><a href="#zsh_sec2">HOW DO I GET THIS NOW</a></li>
-<li><a href="#zsh_sec3">Oh-My-Zsh</a></li>
-<li><a href="#zsh_sec4">Making it Awesome</a></li>
-<li><a href="#zsh_sec5">Resulting Workflow</a></li>
+<li><a href="#zsh_sec1">Installation Instructions</a></li>
+<li><a href="#zsh_sec2">Oh-My-Zsh - A Must Have</a></li>
+<li><a href="#zsh_sec3">Making it Awesome with Themes and Plugins and Fonts!</a></li>
 </ul>
-<h2 id="How-to-Install"><a href="#How-to-Install" class="headerlink" title="How to Install: "></a>How to Install: <a name="sec1"></a></h2><ol>
+<p><a name="zsh_sec1"></a></p>
+<h2 id="Instalation-Instructions"><a href="#Instalation-Instructions" class="headerlink" title="Instalation Instructions"></a>Instalation Instructions</h2><ol>
 <li><p>Install with the package manager of your choice. Ex:</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ sudo apt-get install zsh)</div></pre></td></tr></table></figure>
 </li>
@@ -154,28 +153,29 @@ The fol">
 </li>
 </ol>
 <p>For more information/troubleshooting:<br><a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH" target="_blank" rel="external">https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH</a></p>
-<h2 id="Oh-My-Zsh-A-Must-Have"><a href="#Oh-My-Zsh-A-Must-Have" class="headerlink" title="Oh-My-Zsh - A Must Have "></a>Oh-My-Zsh - A Must Have <a name="sec2"></a></h2><p>‘Oh My Zsh is an open source, community-driven framework for managing your zsh configuration.’</p>
+<p><a name="zsh_sec2"></a></p>
+<h2 id="Oh-My-Zsh-A-Must-Have"><a href="#Oh-My-Zsh-A-Must-Have" class="headerlink" title="Oh-My-Zsh - A Must Have"></a>Oh-My-Zsh - A Must Have</h2><p>‘Oh My Zsh is an open source, community-driven framework for managing your zsh configuration.’</p>
 <p>(It makes it awesome.)</p>
 <p>To install, run the following:</p>
 <p>via curl:
 <figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">sh -c <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)</span>"</span></div></pre></td></tr></table></figure></p>
 <p>Or via wget:
 <figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">sh -c <span class="string">"<span class="variable">$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)</span>"</span></div></pre></td></tr></table></figure></p>
-<h2 id="Making-it-Awesome-with-Themes-and-Plugins-and-Fonts"><a href="#Making-it-Awesome-with-Themes-and-Plugins-and-Fonts" class="headerlink" title="Making it Awesome with Themes and Plugins and Fonts!"></a>Making it Awesome with Themes and Plugins and Fonts!<a name="sec3"></a></h2><h3 id="Themes"><a href="#Themes" class="headerlink" title="Themes"></a>Themes</h3><p>To configure your zsh, modify the ‘.zshrc’ file in your home directory. Example:   nano ~/.zshrc
-NOTE: Whenever you make changes to the config file, in order to update terminal, run:   source ~/.zshrc</p>
-<blockquote>
-<p>Enabling Themes  </p>
-</blockquote>
-<p>Modify the ZSH_THEMES line of  ‘.zshrc’.  Example: ZSH_THEME=&quot;agnoster&quot;
-If you’re looking to try a new theme every time you can use: ZSH_THEME=&quot;random&quot;</p>
-<h3 id="Plugins"><a href="#Plugins" class="headerlink" title="Plugins"></a>Plugins</h3><p>Enabling Plugins
-Modify the plugins line of  ‘.zshrc’. You can add any available plugins. Example: plugins=(git node npm wd)</p>
+<p><a name="zsh_sec3"></a></p>
+<h2 id="Making-it-Awesome-with-Themes-and-Plugins-and-Fonts"><a href="#Making-it-Awesome-with-Themes-and-Plugins-and-Fonts" class="headerlink" title="Making it Awesome with Themes and Plugins and Fonts!"></a>Making it Awesome with Themes and Plugins and Fonts!</h2><h3 id="Themes"><a href="#Themes" class="headerlink" title="Themes"></a>Themes</h3><p>To configure your zsh, modify the ‘.zshrc’ file in your home directory. Example:<br><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">nano ~/.zshrc</div></pre></td></tr></table></figure></p>
+<p>NOTE: Whenever you make changes to the config file, in order to update terminal, run:<br><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line"><span class="built_in">source</span> ~/.zshrc</div></pre></td></tr></table></figure></p>
+<p>To enabling themes modify the ZSH_THEMES line of the ‘.zshrc’ file.  Example:
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">ZSH_THEME=&quot;agnoster&quot;</div></pre></td></tr></table></figure></p>
+<p>If you’re looking to try a new theme every time you can use:
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">ZSH_THEME=&quot;random&quot;</div></pre></td></tr></table></figure></p>
+<h3 id="Plugins"><a href="#Plugins" class="headerlink" title="Plugins"></a>Plugins</h3><p>To enable plugins, just like enabling themes, modify the relevant line of ‘.zshrc’. You can add any available plugins. Example:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">plugins=(git node npm wd)</div></pre></td></tr></table></figure>
 <p>For a list of bundled plugins: <a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins" target="_blank" rel="external">https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins</a></p>
-<p>REMEMBER: Whenever you make changes, run:   source ~/.zshrc</p>
-<h3 id="Fonts"><a href="#Fonts" class="headerlink" title="Fonts"></a>Fonts</h3><p>In order to realize the full awesomeness, you’re going to need some new fonts, you can download them from here:
-<a href="https://github.com/powerline/fonts" target="_blank" rel="external">https://github.com/powerline/fonts</a>
-Once installed, you can select them in terminal preferences as shown to the right.</p>
-<h3 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h3>
+<p>REMEMBER: Whenever you make changes, run:<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">source ~/.zshrc</div></pre></td></tr></table></figure></p>
+<h3 id="Fonts"><a href="#Fonts" class="headerlink" title="Fonts"></a>Fonts</h3><p>In order to realize the full awesomeness, you’re going to need some new fonts, you can download them from here:</p>
+<p><a href="https://github.com/powerline/fonts" target="_blank" rel="external">https://github.com/powerline/fonts</a></p>
+<p>Once installed, you can select them in your terminal preferences and at last you&#39;re up and running!</p>
+
       
     </div>
 
@@ -185,7 +185,7 @@ Once installed, you can select them in terminal preferences as shown to the righ
     
 
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/11/15/zsh_a_better_terminal/" data-id="civkgugqi0005cbp6hcqrajs8" class="article-share-link">
+      <a data-url="http://calholl.github.io/2016/11/15/zsh_a_better_terminal/" data-id="civkgugqi0005cbp6hcqrajs8" class="article-share-link">
         <i class="fa fa-share"></i> Share
       </a>
       
